@@ -10,7 +10,7 @@ Segundo desafio dessa site era buscar uma versão mobile bem defina.
 <p> Página inicial.<br>
 <img src="./design/desktop-preview.jpg" width="750px" height="550px"><br>
 <p> Página Responsiva. <br>
-<img src="./design/mobile-design.jpg" width="375px" height="780px"><br>
+<img src="./design/mobile-design.jpg" width="375px" height="3851px"><br>
 </p>
 <p> Menu Collapse. <br>
 <img src="./design/mobile-nav-design.jpg" width="375px" height="780px"><br>
