@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Insure landing page</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="img-nav">
+        <img class="logo" src="./images/logo.svg" alt="Logo" />
+        <img
+          onclick="handleNav()"
+          class="btn btn-open"
+          src="./images/icon-hamburger.svg"
+          alt="Icon Open"
+        />
+        <img
+          onclick="handleNav()"
+          class="btn btn-close"
+          src="./images/icon-close.svg"
+          alt="Icon close"
+        />
+      </div>
+      <nav class="nav-handle">
+        <ul>
+          <li>How we work</li>
+          <li>Blog</li>
+          <li>Account</li>
+          <li>
+            <button>View plans</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="title-text">
+        <div id="barra"></div>
+        <h1 class="h1-main">Humanizing your insurance.</h1>
+        <p class="p-main">
+          Get your life insurance coverage easier and faster. We blend our
+          expertise and technology to help you find the plan that’s right for
+          you. Ensure you and your loved ones are protected.
+        </p>
+        <button class="button-main">View plans</button>
+        <img src="./images/bg-pattern-intro-left-mobile.svg" alt="bg-pattern-intro-left-mobile" id="bg-mobile-left">
+        <img src="./images/bg-pattern-intro-right-mobile.svg" alt="bg-pattern-intro-right-mobile" id="bg-mobile-right">
+      </div>
+      <div>
+        <img
+          src="./images/bg-pattern-intro-right-desktop.svg"
+          alt="bg-right"
+          id="bg-desktop-top"
+        />
+        <img
+          src="./images/bg-pattern-intro-left-desktop.svg"
+          alt="bg-center"
+          id="bg-desktop-center"
+        />
+        <img src="./images/image-intro-desktop.jpg" alt="img desktop" id="pais-desktop"/>
+        <img src="./images/image-intro-mobile.jpg" alt="img mobile" id="pais-mobile"/>
+      </div>
+    </main>
+    <section id="firt-section">
+      <div id="barra-section"></div>
+      <h1 class="h1-section">We’re different</h1>
+      <ul>
+        <li>
+          <img
+            src="./images/icon-snappy-process.svg"
+            alt="icon-snappy-process"
+          />
+          <h2 class="h2-section">Snappy Process</h2>
+          <p class="p-section">
+            Our application process can be completed in minutes, not hours.
+            Don’t get stuck filling in tedious forms.
+          </p>
+        </li>
+        <li>
+          <img
+            src="./images/icon-affordable-prices.svg"
+            alt="icon-affordable-prices"
+          />
+          <h2 class="h2-section">Affordable Prices</h2>
+          <p class="p-section">
+            We don’t want you worrying about high monthly costs. Our prices may
+            be low, but we still offer the best coverage possible.
+          </p>
+        </li>
+        <li>
+          <img src="./images/icon-people-first.svg" alt="icon-people-first" />
+          <h2 class="h2-section">People First</h2>
+          <p class="p-section">
+            Our plans aren’t full of conditions and clauses to prevent payouts.
+            We make sure you’re covered when you need it.
+          </p>
+        </li>
+      </ul>
+    </section>
+    <section id="second-section">
+      <ul>
+        <li id="control-two-second">
+          <p id="h1-second-section">Find out more about how we work</p>
+        </li>
+        <li>
+          <button id="btn-two-second">How we work</button>
+        </li>
+      </ul>
+      <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="bg-pattern-how-we-work-mobile" id="img-mobile-two-second">
+    </section>
+    <footer id="footer">
+      <ul>
+        <li>
+          <img src="./images/logo.svg" alt="logo-footer" />
+        </li>
+        <li>
+          <img
+            class="img-footer"
+            src="./images/icon-facebook.svg"
+            alt="icon-facebook"
+          />
+          <img
+            class="img-footer"
+            src="./images/icon-twitter.svg"
+            alt="icon-twitter"
+          />
+          <img
+            class="img-footer"
+            src="./images/icon-pinterest.svg"
+            alt="icon-pinterest"
+          />
+          <img
+            class="img-footer"
+            src="./images/icon-instagram.svg"
+            alt="icon-instagram"
+          />
+        </li>
+      </ul>
+      <div id="barra-footer"></div>
+      <ul>
+        <li>
+          <h2 class="h2-footer">our company</h2>
+          <div class="col-footer">
+            <a href="#">How we work</a>
+            <a href="#"> Why Insure?</a>
+            <a href="#">View plans</a>
+            <a href="#">Reviews</a>
+          </div>
+        </li>
+        <li>
+          <h2 class="h2-footer">help me</h2>
+          <div class="col-footer">
+            <a href="#">faq</a>
+            <a href="#"> terms of use</a>
+            <a href="#">privacy policy</a>
+            <a href="#">cookies</a>
+          </div>
+        </li>
+        <li>
+          <h2 class="h2-footer">contact</h2>
+          <div class="col-footer">
+            <a href="#">sales</a>
+            <a href="#"> support</a>
+            <a href="#">live chat</a>
+          </div>
+        </li>
+        <li>
+          <h2 class="h2-footer">others</h2>
+          <div class="col-footer">
+            <a href="#">careers</a>
+            <a href="#"> press</a>
+            <a href="#">licenses</a>
+          </div>
+        </li>
+      </ul>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"></a>
+          Frontend Mentor </a
+        >. Coded by <a href="#"> Bruno Ginel</a>.
+      </div>
+    </footer>
+    <script src="interaction.js"></script>
+  </body>
+</html>
